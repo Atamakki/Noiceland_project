@@ -1,0 +1,34 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+.article-card {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+}
+.article-card img {
+  width: 100%;
+  height: auto;
+}
+.article-card__category {
+  color: grey;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+.article-card__category:hover {
+  text-decoration: underline;
+}
+.article-card__title {
+  font-size: 18px;
+  text-transform: uppercase;
+}
+.article-card__title:hover {
+  text-decoration: underline;
+}
+.article-card__author {
+  font-size: 14px;
+}
+
+/*# sourceMappingURL=style.css.map */
